@@ -11,15 +11,18 @@ export const Home = () => {
         dolorum, voluptatem nesciunt rerum ipsam sit accusamus officiis dolor odit atque inventore
         alias at modi voluptate aut. Cupiditate quam porro iure, fugit sequi, hic amet voluptas
         quisquam dolorum non illo blanditiis aliquid consequuntur totam, magnam nihil dolore ipsa a
-        veniam consequatur ad! Consequuntur nulla, minima odit ratione, similique sequi fuga veniam
-        animi nisi, aut corporis. Excepturi sed voluptatem necessitatibus facere beatae officiis
-        quod? Totam hic iste exercitationem sed magnam libero facilis! Quidem voluptatem suscipit,
-        iure laudantium aut incidunt quas accusamus consequuntur itaque optio ipsam dolorum deleniti
-        sed, iusto culpa nisi sit ut! Atque maiores esse sint placeat obcaecati quae. Facere error
-        dicta eos quia nesciunt pariatur maxime quam ullam sint nisi. Aperiam rerum magnam
-        asperiores quo, odit laboriosam vel, fugiat laborum at impedit fugit, quam tenetur vitae
-        saepe nemo vero eligendi? Accusantium odit similique ab? Cumque nobis quis itaque possimus
-        corporis ea sit, eos provident ipsam necessitatibus. Necessitatibus deserunt laudantium quae
+        <p>
+          veniam consequatur ad! Consequuntur nulla, minima odit ratione, similique sequi fuga
+          veniam animi nisi, aut corporis. Excepturi sed voluptatem necessitatibus facere beatae
+          officiis quod? Totam hic iste exercitationem sed magnam libero facilis! Quidem voluptatem
+          suscipit, iure laudantium aut incidunt quas accusamus consequuntur itaque optio ipsam
+          dolorum deleniti sed, iusto culpa nisi sit ut! Atque maiores esse sint placeat obcaecati
+          quae. Facere error dicta eos quia nesciunt pariatur maxime quam ullam sint nisi. Aperiam
+          rerum magnam asperiores quo, odit laboriosam vel, fugiat laborum at impedit fugit, quam
+          tenetur vitae saepe nemo vero eligendi? Accusantium odit similique ab? Cumque nobis quis
+          itaque possimus corporis ea sit, eos provident ipsam necessitatibus. Necessitatibus
+          deserunt laudantium quae
+        </p>
         totam perspiciatis veniam quos sed cupiditate, fuga in sit dolorem a quod sunt
         reprehenderit, mollitia itaque rerum ipsum officiis dolore distinctio unde. Numquam corporis
         reprehenderit excepturi sit dolorum, iure praesentium, nam architecto nostrum odit mollitia,

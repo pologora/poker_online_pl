@@ -7,6 +7,16 @@
 body {
   font-size: var(--text);
   line-height: var(--text-line-height);
+  font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-secondary);
 }
 
 h1,
@@ -88,4 +98,9 @@ h6,
 
 .visible {
   opacity: 1;
+}
+
+p {
+  font-size: var(--h6);
+  line-height: var(--h6-line-height);
 }
