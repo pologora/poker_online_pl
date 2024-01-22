@@ -1,0 +1,62 @@
+:root {
+  /* Colors */
+  /* --primary-clr: #2f41db;
+  --secondary-clr: #48509c;
+  --secondary-dark-clr: #41445c;
+  --important-clr: #dbb52e;
+  --important-dark-clr: #867949;
+  --error-clr: red;
+
+  --bg-main: #f5f5f5;
+  --bg-rules: #81fada;
+  --bg-cards: #fad773;
+  --bg-promotions: #eb73fa;
+
+  --black: #262730;
+  --black75: #262730bf;
+  --black50: #26273080;
+  --black25: #26273040;
+  --black10: #2627301a;
+  --black5: #2627300d;
+
+  --white: #f5f5f5;
+
+  --text-clr-light: var(--white);
+  --text-clr-dark: var(--black); */
+
+  /* Typography */
+  --font-primary: 'Lato', sans-serif;
+  --font-secondary: 'Merriweather', serif;
+
+  --scale: 1.25; /* Major third */
+  /* --mobile-scale: 1.125; Major second */
+
+  --base-font-size: 1rem;
+  --text: var(--base-font-size);
+  --h6: calc(var(--base-font-size) * var(--scale));
+  --h5: calc(var(--h6) * var(--scale));
+  --h4: calc(var(--h5) * var(--scale));
+  --h3: calc(var(--h4) * var(--scale));
+  --h2: calc(var(--h3) * var(--scale));
+  --h1: calc(var(--h2) * var(--scale));
+  --small: calc(var(--base-font-size) / var(--scale));
+  --mini: calc(var(--small) / var(--scale));
+
+  --space-baseline: 24px;
+  --space-sm: calc(var(--space-baseline) / 2);
+  --space-md: var(--space-baseline);
+  --space-lg: calc(var(--space-baseline) * 2);
+  --space-xl: calc(var(--space-baseline) * 3);
+
+  --line-height-scale: 1.5;
+  --line-height-scale-big: 1.2;
+  --text-line-height: calc(var(--text) * var(--line-height-scale));
+  --h6-line-height: calc(var(--h6) * var(--line-height-scale));
+  --h5-line-height: calc(var(--h5) * var(--line-height-scale));
+  --h4-line-height: calc(var(--h4) * var(--line-height-scale));
+  --h3-line-height: calc(var(--h3) * var(--line-height-scale-big));
+  --h2-line-height: calc(var(--h2) * var(--line-height-scale-big));
+  --h1-line-height: calc(var(--h1) * var(--line-height-scale-big));
+  --small-line-height: calc(var(--small) * var(--line-height-scale));
+  --mini-line-height: var(--small-line-height);
+}

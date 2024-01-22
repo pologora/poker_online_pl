@@ -1,0 +1,35 @@
+.navContainer {
+  display: flex;
+  align-content: stretch;
+}
+
+.navItem {
+  height: 100vh;
+  flex-basis: 60px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.active {
+  flex-basis: 100%;
+  cursor: default;
+}
+
+.title {
+  /* font-size: var(--h2);
+  margin-top: var(--space-lg);
+  margin-left: var(--space-md); */
+  /* transition-delay: 0.5s; */
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  margin-top: 2rem;
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.visible {
+  /* font-size: var(--text);
+  margin: 0; */
+
+  opacity: 1;
+}
