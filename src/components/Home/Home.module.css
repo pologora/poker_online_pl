@@ -1,1 +1,6 @@
-
+.logoContainer {
+  max-width: 20%;
+  position: fixed;
+  top: 12px;
+  left: 48px;
+}

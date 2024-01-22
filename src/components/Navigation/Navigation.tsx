@@ -11,23 +11,23 @@ import { NavigationItem } from './NavigationItem';
 import style from './Navigation.module.css';
 
 const navigationRoutes = [
-  { title: 'Home', color: 'var(--bgHome)', route: '/', isActive: true, component: <Home /> },
+  { title: 'Pokoje', color: 'var(--bgHome)', route: '/', isActive: true, component: <Home /> },
   {
-    title: 'Rules',
+    title: 'Zasady',
     color: 'var(--bgRules)',
     route: '/rules',
     isActive: false,
     component: <Rules />,
   },
   {
-    title: 'Cards',
+    title: 'Układy',
     color: 'var(--bgCards)',
     route: '/cards',
     isActive: false,
     component: <Cards />,
   },
   {
-    title: 'Promotions',
+    title: 'Promocje',
     color: 'var(--bgPromotions)',
     route: '/promotions',
     isActive: false,

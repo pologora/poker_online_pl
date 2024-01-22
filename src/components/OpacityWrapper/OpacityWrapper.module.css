@@ -1,4 +1,7 @@
 .container {
   opacity: 0;
   transition: all 1s ease;
+  padding: var(--space-xl) var(--space-lg);
+  max-width: 1000px;
+  margin-inline: auto;
 }

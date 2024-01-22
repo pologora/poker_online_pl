@@ -1,13 +1,15 @@
 .navContainer {
   display: flex;
   align-content: stretch;
+  overflow: hidden;
 }
 
 .navItem {
-  height: 100vh;
-  flex-basis: 60px;
+  min-height: 100vh;
+  flex-basis: var(--space-xl);
+  min-width: var(--space-xl);
   cursor: pointer;
-  transition: all 0.5s ease;
+  transition: all 0.8s ease;
 }
 
 .active {
@@ -16,20 +18,23 @@
 }
 
 .title {
-  /* font-size: var(--h2);
-  margin-top: var(--space-lg);
-  margin-left: var(--space-md); */
-  /* transition-delay: 0.5s; */
   writing-mode: vertical-lr;
   text-orientation: mixed;
-  margin-top: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: var(--space-md);
+  font-size: var(--h6);
   opacity: 0;
-  transition: all 0.5s linear;
+  transition: all 0.2s linear;
+  position: fixed;
+  font-weight: bold;
+}
+
+.logo {
+  margin-top: var(--space-lg);
+  opacity: 0;
 }
 
 .visible {
-  /* font-size: var(--text);
-  margin: 0; */
-
   opacity: 1;
 }

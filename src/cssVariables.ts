@@ -6,10 +6,12 @@ export const theme = {
     important: '#dbb52e',
     importantDark: '#867949',
     error: 'red',
-    bgHome: '#f5f5f5',
-    bgRules: '#81fada',
-    bgCards: '#fad773',
-    bgPromotions: '#eb73fa',
+
+    bgHome: '#ffffff',
+    bgRules: '#5EA3EC',
+    bgCards: '#F64444',
+    bgPromotions: '#FFB400',
+
     black: '#262730',
     black75: '#262730bf',
     black50: '#26273080',

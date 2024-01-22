@@ -24,16 +24,15 @@ export const NavigationItem = ({
     navigate(route);
   };
 
+  const visibleStyle = !isActive ? style.visible : '';
+
   return (
     <div
       className={`${style.navItem} ${isActive ? style.active : ''}`}
       style={{ backgroundColor: color }}
       onClick={!isActive ? handleOnClick : undefined}
     >
-      <p className={`${style.title} ${!isActive ? style.visible : ''}`}>
-        {title}
-        {route}
-      </p>
+      <p className={`${style.title} ${visibleStyle}`}>{title}</p>
       {isActive && <OpacityWrapper>{children}</OpacityWrapper>}
     </div>
   );
