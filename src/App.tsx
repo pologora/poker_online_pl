@@ -1,16 +1,17 @@
 import { Route, Routes } from 'react-router-dom';
 
 import { Navigation } from './components/Navigation/Navigation';
-import start from './helpers/setAppOptions';
+import { GlobalContextProvider } from './contexts/GlobalContextProvider/ContextWrapper';
 
-start();
 const App = () => {
   return (
     <>
-      <Routes>
-        <Route element={<Navigation />} path='/' />
-        <Route element={<Navigation />} path='/:page' />
-      </Routes>
+      <GlobalContextProvider>
+        <Routes>
+          <Route element={<Navigation />} path='/' />
+          <Route element={<Navigation />} path='/:page' />
+        </Routes>
+      </GlobalContextProvider>
     </>
   );
 };

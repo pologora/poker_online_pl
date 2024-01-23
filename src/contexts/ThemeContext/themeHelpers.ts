@@ -22,14 +22,16 @@ export const theme = {
     textLight: 'var(--white)',
     textDark: 'var(--black)',
   },
+  dark: {},
 };
 
 export type ThemeVariant = keyof typeof theme;
-export type Theme = typeof theme.light;
+export type Theme = (typeof theme)[keyof typeof theme];
 
-export function setCssVariables(theme: Theme) {
-  for (const value in theme) {
+export function setCssVariables(themeVariant: ThemeVariant) {
+  const newTheme: Theme = theme[themeVariant];
+  for (const value in newTheme) {
     const key = value as keyof Theme;
-    document.documentElement.style.setProperty(`--${value}`, theme[key]);
+    document.documentElement.style.setProperty(`--${value}`, newTheme[key]);
   }
 }
